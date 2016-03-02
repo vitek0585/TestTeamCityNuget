@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace TeamCityTestNuget
 {
-    public class Class1
+    public class Calculate
     {
+        public int Sum(int i,int j)
+        {
+            return i + j;
+        }
+
     }
 }

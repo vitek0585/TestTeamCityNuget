@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityTestNuget", "TeamCityTestNuget\TeamCityTestNuget.csproj", "{B2D1C8B5-C44F-4929-AADB-2D6A7729C1BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCalculate", "TestCalculate\TestCalculate.csproj", "{3D6D14EC-A58F-4877-B851-F73A328C009A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B2D1C8B5-C44F-4929-AADB-2D6A7729C1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2D1C8B5-C44F-4929-AADB-2D6A7729C1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2D1C8B5-C44F-4929-AADB-2D6A7729C1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6D14EC-A58F-4877-B851-F73A328C009A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6D14EC-A58F-4877-B851-F73A328C009A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6D14EC-A58F-4877-B851-F73A328C009A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6D14EC-A58F-4877-B851-F73A328C009A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
