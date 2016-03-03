@@ -15,7 +15,8 @@ namespace TestCalculate
         public void SumTestFail()
         {
             Calculate calc = new Calculate();
-            Assert.Equal(5, calc.Sum(2, 1));
+            Assert.Equal(5, calc.Sum(2, 3));
+            Assert.Equal(7, calc.Sum(2, 5));
         }
     }
 }

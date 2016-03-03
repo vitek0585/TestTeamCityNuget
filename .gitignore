@@ -3,6 +3,7 @@
 #UML diagrams
 /FilterUml
 
+
 # User-specific files
 *.suo
 *.user
@@ -16,6 +17,14 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+
+#except test
+!/TestCalculate/[Bb]in
+/TestCalculate/[Bb]in/[Dd]ebug/*
+!/TestCalculate/[Bb]in/[Dd]ebug/
+!/TestCalculate/bin/Debug/TestCalculate.dll
+
+
 
 # NuGet Packages
 *.nupkg
@@ -116,6 +125,7 @@ csx
 # Windows Store app package directory
 AppPackages/
 
+
 # Others
 sql/
 *.Cache
@@ -184,3 +194,4 @@ $RECYCLE.BIN/
 
 # Visual Studio 2014 CTP
 **/*.sln.ide
+
